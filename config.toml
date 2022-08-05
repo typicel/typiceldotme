@@ -1,74 +1,73 @@
-baseurl      = "https://typicel.me"
-title        = "typicel"
+baseurl = "https://typicel.me"
 languageCode = "en-us"
-theme        = "hello-friend-ng"
-paginate     = 10
+paginate = 10
+theme = "hello-friend-ng"
+title = "typicel"
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04"
+dateform = "Jan 2, 2006"
+dateformNum = "2006-01-02"
+dateformNumTime = "2006-01-02 15:04"
+dateformShort = "Jan 2"
 
-  # Subtitle for home
-  homeSubtitle = "student && software developer"
+# Subtitle for home
+homeSubtitle = "student && software developer"
 
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = false
+# Set disableReadOtherPosts to true in order to hide the links to other posts.
+disableReadOtherPosts = false
 
-  # Enable sharing buttons, if you like
-  enableSharingButtons = true
+# Enable sharing buttons, if you like
+enableSharingButtons = true
 
-  # Metadata mostly used in document's head
-  description = "My new homepage or blog"
-  keywords = "homepage, blog"
-  images = [""]
+# Metadata mostly used in document's head
+description = "My new homepage or blog"
+images = [""]
+keywords = "homepage, blog"
 
-  [[params.social]]
-    name="github"
-    url = "https://github.com/typicel"
+[[params.social]]
+name = "github"
+url = "https://github.com/typicel"
 
-  [[params.social]]
-    name="linkedin"
-    url = "https://www.linkedin.com/in/tyler-mccormick-2221971a9/"
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/typicel/"
 
-  [[params.social]]
-    name="email"
-    url="mailto:tylermack2018@gmail.com"
-
+[[params.social]]
+name = "email"
+url = "mailto:tylermack2018@gmail.com"
 
 [taxonomies]
-    category = "blog"
-    tag      = "tags"
-    series   = "series"
+category = "blog"
+series = "series"
+tag = "tags"
 
 [languages]
-  [languages.en]
-    title = "Tyler McCormick"
-    keywords = ""
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "Read other posts"
+[languages.en]
+copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+keywords = ""
+readOtherPosts = "Read other posts"
+title = "Tyler McCormick"
 
-    [languages.en.params.logo]
-      logoText = "typicel"
-      logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
+[languages.en.params.logo]
+logoHomeLink = "/"
+logoText = "typicel"
+# or
+#
+# path = "/img/your-example-logo.svg"
+# alt = "Your example logo alt text"
 
-  # And you can even create generic menu
-  [[menu.main]]
-    identifier = "about"
-    name       = "About Me"
-    url        = "/about"
+# And you can even create generic menu
+[[menu.main]]
+identifier = "about"
+name = "About Me"
+url = "/about"
 
-  [[menu.main]]
-    identifier = "projects"
-    name       = "Projects"
-    url        = "/projects"
+[[menu.main]]
+identifier = "projects"
+name = "Projects"
+url = "/projects"
 
-  [[menu.main]]
-    identifier = "work"
-    name       = "Work Experience"
-    url        = "/work"
+[[menu.main]]
+identifier = "work"
+name = "Work Experience"
+url = "/work"
